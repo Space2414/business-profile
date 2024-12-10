@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 50vh;
+  font-family: "book antiqua", Georgia, serif;
+  color: white;
+  background-size: cover;
+  background-color: rgb (179, 180, 180);
+  background-repeat: no-repeat;
+}
+.nav {
+  display: flex;
+  gap: 400px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+header {
+  background-image: url(images/The\ beauty\ of\ _The\ Prince\ of\ Egypt_\ Enjoy!!!.gif);
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+}
+
+.box1 {
+  float: right;
+  width: 50vh;
+}
+.box1 img {
+  position: absolute;
+  width: 1000px;
+  height: 736px;
+  left: -8px;
+  top: 500px;
+  bottom: auto;
+  right: auto;
+  transform: translate(50%, -50%);
+}
+
+.footer {
+  min-height: cal (100vh - 50px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  background-color: rgb(82, 77, 67, 0.685);
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100vw;
+}
